@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
+
 a = [2, 8, 9, 48, 8, 22, -12, 2]
-b = [10, 11, 50, 10, 24]
-print(a)
-print(b)
+b = [] 
+for i in a :
+    if i > 5 :
+      b.append( i + 2)
+print( a )
+print( b )
